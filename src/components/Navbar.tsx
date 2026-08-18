@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
-import logoAsset from "@/assets/heishere-labs-logo.png.asset.json";
 
 
 
@@ -49,7 +48,7 @@ export function Navbar() {
           <Link to="/" className="flex items-center gap-2.5 group">
             <span className="relative inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-lg ring-1 ring-white/10">
               <span className="absolute inset-0 bg-gradient-brand blur-md opacity-40 group-hover:opacity-70 transition" />
-              <img src={logoAsset.url} alt="Heishere Labs" className="relative h-full w-full object-cover" />
+              <img src={"/images/heishere-labs-logo.png"} alt="Heishere Labs" className="relative h-full w-full object-cover" />
             </span>
             <span className="font-display text-[15px] font-semibold tracking-tight">
               Heishere Labs

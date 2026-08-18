@@ -5,17 +5,6 @@ import {
   ShieldCheck, Zap, Handshake, LineChart,
 } from "lucide-react";
 import { BigCTA, CTAButton, Eyebrow, FeatureCard, PageHero, Section, StatBlock } from "../components/ui-kit";
-import wendellAsset from "@/assets/wendell-ortiz.jpeg.asset.json";
-import deborahAsset from "@/assets/deborah-harris.jpeg.asset.json";
-import kenjiAsset from "@/assets/kenji-takahashi.jpeg.asset.json";
-import marcusAsset from "@/assets/brands/marcusadler.jpg.asset.json";
-import eliesaabAsset from "@/assets/brands/eliesaab.jpg.asset.json";
-import marissaAsset from "@/assets/brands/marissa.jpg.asset.json";
-import sandsAsset from "@/assets/brands/sands.jpg.asset.json";
-import savonchesAsset from "@/assets/brands/savonches.jpg.asset.json";
-import brownsAsset from "@/assets/brands/browns.jpg.asset.json";
-import sellierAsset from "@/assets/brands/sellier.jpg.asset.json";
-import twistAsset from "@/assets/brands/twist.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -60,14 +49,14 @@ const WHY = [
 ];
 
 const CLIENTS = [
-  { name: "Marcus Adler", category: "Bespoke Menswear · NYC", url: "https://www.marcusadlerny.com/", image: marcusAsset.url },
-  { name: "Elie Saab", category: "Haute Couture", url: "https://eliesaab.com/", image: eliesaabAsset.url },
-  { name: "Marissa Collections", category: "Luxury Fashion Boutique", url: "https://marissacollections.com/", image: marissaAsset.url },
-  { name: "Sands", category: "Luxury Retail · UAE", url: "https://sands-uae.com/", image: sandsAsset.url },
-  { name: "Savonches", category: "Curated Luxury Handbags", url: "https://savonches.com/", image: savonchesAsset.url },
-  { name: "Browns Fashion", category: "Luxury Multi-Brand", url: "https://brownsfashion.com/?country=NG", image: brownsAsset.url },
-  { name: "Sellier Knightsbridge", category: "Pre-Loved Luxury", url: "https://www.sellierknightsbridge.com/", image: sellierAsset.url },
-  { name: "Twist", category: "Contemporary Luxury Fashion", url: "https://www.twistonline.com/", image: twistAsset.url },
+  { name: "Marcus Adler", category: "Bespoke Menswear · NYC", url: "https://www.marcusadlerny.com/", image: "/images/brands/marcusadler.jpg" },
+  { name: "Elie Saab", category: "Haute Couture", url: "https://eliesaab.com/", image: "/images/brands/eliesaab.jpg" },
+  { name: "Marissa Collections", category: "Luxury Fashion Boutique", url: "https://marissacollections.com/", image: "/images/brands/marissa.jpg" },
+  { name: "Sands", category: "Luxury Retail · UAE", url: "https://sands-uae.com/", image: "/images/brands/sands.jpg" },
+  { name: "Savonches", category: "Curated Luxury Handbags", url: "https://savonches.com/", image: "/images/brands/savonches.jpg" },
+  { name: "Browns Fashion", category: "Luxury Multi-Brand", url: "https://brownsfashion.com/?country=NG", image: "/images/brands/browns.jpg" },
+  { name: "Sellier Knightsbridge", category: "Pre-Loved Luxury", url: "https://www.sellierknightsbridge.com/", image: "/images/brands/sellier.jpg" },
+  { name: "Twist", category: "Contemporary Luxury Fashion", url: "https://www.twistonline.com/", image: "/images/brands/twist.jpg" },
 ];
 
 const PROCESS = [
@@ -85,21 +74,21 @@ const TESTIMONIALS = [
       "Heishere Labs didn't feel like an agency — they operated like our in-house strategy and product team. Revenue is up 3× and we've never shipped faster.",
     name: "Wendell A. Ortiz",
     role: "CEO, Northwind Beauty",
-    image: wendellAsset.url,
+    image: "/images/testimonials/wendell-ortiz.jpeg",
   },
   {
     quote:
       "The clearest thinking, the most disciplined execution and the most beautiful work we've seen from any studio, at any price point.",
     name: "Deborah C. Harris",
     role: "Co-founder, Vantra Labs",
-    image: deborahAsset.url,
+    image: "/images/testimonials/deborah-harris.jpeg",
   },
   {
     quote:
       "They rebuilt our entire acquisition engine in 90 days. It's the single best investment we've made this year.",
     name: "Kenji Takahashi",
     role: "VP Growth, Halten Software",
-    image: kenjiAsset.url,
+    image: "/images/testimonials/kenji-takahashi.jpeg",
   },
 ];
 

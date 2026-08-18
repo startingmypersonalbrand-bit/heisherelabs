@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, Facebook, Linkedin } from "lucide-react";
 import { useState } from "react";
-import logoAsset from "@/assets/heishere-labs-logo.png.asset.json";
 
 function XIcon({ className }: { className?: string }) {
   return (
@@ -47,7 +46,7 @@ export function Footer() {
           <div className="md:col-span-5">
             <Link to="/" className="flex items-center gap-2.5">
               <span className="inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg ring-1 ring-white/10">
-                <img src={logoAsset.url} alt="Heishere Labs" className="h-full w-full object-cover" />
+                <img src={"/images/heishere-labs-logo.png"} alt="Heishere Labs" className="h-full w-full object-cover" />
               </span>
               <span className="font-display text-lg font-semibold tracking-tight">Heishere Labs</span>
             </Link>

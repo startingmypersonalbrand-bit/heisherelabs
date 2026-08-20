@@ -94,7 +94,7 @@ function About() {
       <Section eyebrow="Founder" title="A note from the founder">
         <div className="grid gap-10 lg:grid-cols-[1fr_2fr] items-start">
           <div className="gradient-border p-1.5">
-<img src="/images/about-profile.jpeg" alt="Nikhil Verma, Founder of Heishere Labs" className="aspect-[4/5] w-full rounded-[calc(var(--radius-xl)-6px)] object-cover" />
+<img src="/images/about-profile.jpeg" alt="Habeeb Olanrewaju, Founder of Heishere Labs" className="aspect-[4/5] w-full rounded-[calc(var(--radius-xl)-6px)] object-cover" />
           </div>
           <div className="space-y-5 text-lg leading-relaxed text-muted-foreground">
             <p>
